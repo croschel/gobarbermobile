@@ -49,6 +49,7 @@ export default (signedIn = false) => createAppContainer(
       Profile,
     },
       {
+        resetOnBlur: true,
         tabBarOptions: {
           keyboardHidesTabBar: true,
           activeTintColor: '#fff',
